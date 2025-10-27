@@ -1,0 +1,30 @@
+{
+  "all_consistent": false,
+  "node_id_counts": {
+    "nodes.csv": 21327,
+    "community_map.csv": 6194,
+    "features.parquet": 21200,
+    "idmap.csv": 21327,
+    "predictions.csv": 21045
+  },
+  "merge_results": [
+    {
+      "merge": "nodes + community_map",
+      "expected": 6194,
+      "actual": 6194,
+      "success": true
+    },
+    {
+      "merge": "nodes + features",
+      "expected": 21200,
+      "actual": 21200,
+      "success": true
+    },
+    {
+      "merge": "community_map + features",
+      "expected_min": 6194,
+      "actual": 6193,
+      "success": true
+    }
+  ]
+}

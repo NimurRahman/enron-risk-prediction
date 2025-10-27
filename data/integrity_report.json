@@ -1,0 +1,91 @@
+{
+  "base": "I:\\EnronDataset\\new_cleaned_output",
+  "checks": {
+    "nodes.csv": {
+      "rows": 21445,
+      "unique_node_ids": 21445,
+      "duplicate_node_ids_count": 0,
+      "duplicate_emails_count": 117,
+      "ok": true
+    },
+    "idmap.csv": {
+      "rows": 21445,
+      "unique_node_ids": 21445,
+      "missing_in_nodes_count": 0,
+      "duplicate_node_ids_count": 0,
+      "ok": true
+    },
+    "node_week_features": {
+      "total_ids_in_file": 21445,
+      "missing_from_nodes_count": 0,
+      "ok": true
+    },
+    "node_week_features_cleaned": {
+      "total_ids_in_file": 21445,
+      "missing_from_nodes_count": 0,
+      "ok": true
+    },
+    "node_week_risk": {
+      "total_ids_in_file": 21445,
+      "missing_from_nodes_count": 0,
+      "ok": true
+    },
+    "node_week_risk_cleaned": {
+      "total_ids_in_file": 21445,
+      "missing_from_nodes_count": 0,
+      "ok": true
+    },
+    "edges_long": {
+      "unique_sources": 6350,
+      "unique_targets": 20802,
+      "missing_sources_count": 0,
+      "missing_targets_count": 0,
+      "ok": true
+    },
+    "edges_daily_weighted": {
+      "unique_sources": 6350,
+      "unique_targets": 20802,
+      "missing_sources_count": 0,
+      "missing_targets_count": 0,
+      "ok": true
+    },
+    "edges_weekly_weighted": {
+      "unique_sources": 6350,
+      "unique_targets": 20802,
+      "missing_sources_count": 0,
+      "missing_targets_count": 0,
+      "ok": true
+    },
+    "edges_global_weighted": {
+      "unique_sources": 6350,
+      "unique_targets": 20802,
+      "missing_sources_count": 0,
+      "missing_targets_count": 0,
+      "ok": true
+    },
+    "model_input": {
+      "total_ids_in_file": 21445,
+      "missing_from_nodes_count": 0,
+      "ok": true
+    },
+    "predictions_test": {
+      "total_ids_in_file": 11220,
+      "missing_from_nodes_count": 0,
+      "ok": true
+    },
+    "community_map": {
+      "total_ids_in_file": 6231,
+      "missing_from_nodes_count": 0,
+      "ok": true
+    },
+    "model_input.csv::week_start": {
+      "ok": true,
+      "info": "week_start nulls after parse: 0"
+    },
+    "emails_master.csv::date_iso": {
+      "contains_hashes": false,
+      "ok": true
+    }
+  },
+  "overall_ok": true
+}

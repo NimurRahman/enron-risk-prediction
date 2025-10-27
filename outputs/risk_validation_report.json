@@ -1,0 +1,25 @@
+{
+  "Risk Band Distribution": {
+    "Low": "80.4%",
+    "Medium": "14.8%",
+    "High": "3.8%",
+    "Critical": "1.0%"
+  },
+  "Risk Score Separation": {
+    "Low Mean": -0.23224323526832855,
+    "Medium Mean": 0.04276505517398887,
+    "High Mean": 0.30287235526020434,
+    "Critical Mean": 0.5339107060153057
+  },
+  "Feature Discrimination": {
+    "Top Feature": "out_emails",
+    "Top Ratio": "3546.33x",
+    "Features with 2x+ difference": 18
+  },
+  "Validation Status": "PASSED",
+  "Evidence": [
+    "Risk bands show clear separation in risk scores",
+    "18 features show 2x+ difference between Critical and Low",
+    "Distribution matches expected pattern (80/15/4/1)"
+  ]
+}

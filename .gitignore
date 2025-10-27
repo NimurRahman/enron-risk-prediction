@@ -1,0 +1,52 @@
+# Large data files (exclude from GitHub)
+outputs/modeling_data_*.parquet
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+venv/
+env/
+ENV/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Backup files we don't need on GitHub
+*.zip
+handoff_to_sumit/
+
+# Unused intermediate files
+data/edges_long.parquet
+data/node_week_features.parquet
+data/node_week_risk.parquet
+data/node_week_features_cleaned.parquet
+data/node_week_risk_cleaned.parquet
+data/edges_daily_weighted.parquet
+data/edges_global_weighted.parquet
+data/model_input.csv

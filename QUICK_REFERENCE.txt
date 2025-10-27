@@ -1,0 +1,24 @@
+
+```
+=== QUICK REFERENCE ===
+
+BEST MODEL: XGBoost (0.999 PR-AUC)
+LOCATION: I:\enron_modeling\models\model_xgboost.pkl
+
+TOP 3 FEATURES:
+1. total_emails_ma4 (60.8%)
+2. degree_ma4 (11.7%)
+3. degree_delta (6.8%)
+
+NEXT STEP: python 08_shap_analysis.py
+
+SUMIT NEEDS:
+- Model files (in models/)
+- SHAP files (will be in shap_analysis/)
+- Feature names (in outputs/feature_names.txt)
+
+PRESENTATION:
+- Monday 2:30 PM (?)
+- Lead with 0.999 PR-AUC
+- Only 35 false positives
+- $600K-1.8M annual ROI

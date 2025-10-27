@@ -1,0 +1,14 @@
+# Git LFS tracking for large files
+
+# Exclude ALL data/*.csv from LFS (small files)
+data/*.csv -filter -diff -merge
+
+# Large CSV files in outputs only
+outputs/predictions_test_enhanced.csv filter=lfs diff=lfs merge=lfs -text
+outputs/*.csv filter=lfs diff=lfs merge=lfs -text
+
+# Parquet files
+*.parquet filter=lfs diff=lfs merge=lfs -text
+
+# Model files
+*.pkl filter=lfs diff=lfs merge=lfs -text
